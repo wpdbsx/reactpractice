@@ -12,7 +12,7 @@ const MyComponent = ({ name, favoriteNumber, children }) => {
 };
 
 MyComponent.defaultProps = {
-	name: '바보'
+	name: '바보a'
 };
 MyComponent.propTypes = {
 	name: PropTypes.string,
