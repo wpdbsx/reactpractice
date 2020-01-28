@@ -4,9 +4,10 @@ import './App.css';
 import MyComponent from './MyComponent';
 import Counter from './Counter';
 import EventPratics from './EventPratics';
+import Say from './Say';
 
 const App = () => {
-	return <EventPratics></EventPratics>;
+	return <Say></Say>;
 };
 
 export default App;

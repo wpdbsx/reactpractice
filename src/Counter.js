@@ -28,9 +28,19 @@ class Counter extends Component {
 								};
 							},
 							() => {
+								console.log('방금 setState가 호출됨');
+								console.log(this.state);
+							}
+						);
+						this.setState(
+							a => {
 								return {
-									number: number + 1
+									number: a.number + 1
 								};
+							},
+							() => {
+								console.log('방금 setState가 호출됨');
+								console.log(this.state);
 							}
 						);
 					}}
