@@ -9,6 +9,7 @@ import EventPractice3 from './EventPractice3';
 
 const App = () => {
 	return <EventPractice3></EventPractice3>;
+	123;
 };
 
 export default App;
